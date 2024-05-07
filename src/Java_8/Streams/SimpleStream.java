@@ -30,9 +30,8 @@ public class SimpleStream {
         marks.add(53);
         marks.add(35);
 
-        List<Integer> ls = marks.stream().map(i -> i * 5).collect(Collectors.toList());
+        List<Integer> ls = marks.stream().map(i -> i + 5).collect(Collectors.toList());
         System.out.println("After updating marks: " + ls);
-
 
         ArrayList<String> list = new ArrayList<>();
         list.add("Harley Davidson");
@@ -44,7 +43,6 @@ public class SimpleStream {
         //list.stream().sorted().forEach(System.out::println); //method reference is used here
         //list.stream().filter(x -> x.endsWith("a")).forEach(System.out::println);
 
-
         //filter by object properties (String object)
         String [] myArray = "My name is Optimus Prime".split(" ");
         Stream<String> myStream = Stream.of(myArray);
@@ -52,6 +50,5 @@ public class SimpleStream {
 
         AtomicInteger i  = new AtomicInteger(0);
         myStream.filter(x -> i.getAndIncrement() % 2 ==0).forEach(System.out::println); //print only even indexed words
-
     }
 }

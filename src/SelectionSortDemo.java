@@ -51,10 +51,9 @@ public class SelectionSortDemo {
                 nums[i] = temp;
             }
         }
-
         //System.out.println();
         System.out.println("after sorting");
-        for(int num :  nums){
+        for(int num : nums){
             System.out.println(num);
         }
     }

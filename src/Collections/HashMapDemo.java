@@ -19,8 +19,6 @@ public class HashMapDemo {
         map.put(null, "Suzuki");
 
         //map.clear();
-
-
        for(Map.Entry m : map.entrySet()){
            System.out.println(m.getKey() + " " + m.getValue());
        }
