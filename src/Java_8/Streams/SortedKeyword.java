@@ -10,9 +10,8 @@ public class SortedKeyword {
         List<String> str = List.of("My", "Name", "Is", "Maximus", "Decimus", "Meridius");
 
         IntStream stm1 = IntStream.of(arr);
-        //stm1.sorted().forEach(System.out::println);
+        stm1.sorted().forEach(System.out::println);
 
         str.stream().sorted().forEach(System.out::println);
-
     }
 }

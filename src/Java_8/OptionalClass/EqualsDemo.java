@@ -7,10 +7,8 @@ public class EqualsDemo {
 
         Optional<String> s1 = Optional.of("Hello");
 
-        Optional<String> s2 = Optional.of("Hi");
+        Optional<String> s2 = Optional.of("Hello");
 
         System.out.println(s1.equals(s2)); //print 'false'
-
-
     }
 }

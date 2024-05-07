@@ -12,6 +12,14 @@ public class AnyMatchDemo {
                 .anyMatch(n -> n > 10); //checks whether list has any element greater than 10
         System.out.println("answer: " + answer);
 //////////////////////////////////////////////////////////////////////////////
+
+        List<Integer> list3 = Arrays.asList(54,34,65,12,98,67,70);
+        boolean answer3 = list3.stream().anyMatch(n -> n > 100);
+        System.out.println("answer3 : " + answer3);
+
+
+
+        //////////////////////////////////////////////////////////////////////////////
         
         List<String> str = Arrays.asList("I", "Am", "Batmam");
         boolean answer2 = str
@@ -23,7 +31,7 @@ public class AnyMatchDemo {
         ////////////////////////////////////////////////
 
         List<Integer> ls = Arrays.asList(43,63,82,12,64,34);
-        boolean ans = ls.stream().anyMatch(in -> in > 45);
+        boolean ans = ls.stream().anyMatch(in -> in > 95);
         System.out.println("ans: " + ans);
     }
 }

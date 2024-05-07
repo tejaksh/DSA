@@ -8,7 +8,7 @@ public class FilterDemo {
 
         Optional<Integer> value = Optional.of(57);
 
-        //System.out.println(value);
+        System.out.println(value);
 
         //System.out.println(value.filter(num -> num % 2 ==0));
 

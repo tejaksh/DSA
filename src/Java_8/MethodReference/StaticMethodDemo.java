@@ -5,7 +5,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-class Person{
+class
+Person{
     private String name;
     private Integer age;
 

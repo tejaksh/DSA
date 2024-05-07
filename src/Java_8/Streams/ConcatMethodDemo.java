@@ -6,7 +6,7 @@ public class ConcatMethodDemo {
     public static void main(String[] args) {
         Stream<String> s1 = Stream.of("I", "am", "Batman");
         Stream<String> s2 = Stream.of("I", "am", "Ironman");
-        /*Stream.concat(s1, s2).forEach(System.out::println);*/ //print conncatinated stream
+        Stream.concat(s1, s2).forEach(System.out::println); //print concatinated stream
 
         //////////////////////////////////////
 
@@ -17,7 +17,7 @@ public class ConcatMethodDemo {
 
         Stream.concat(
                 Stream.concat(
-                        Stream.concat(s6,s5),s4),s3)
+                        Stream.concat(s3,s4),s5),s6)
                 .forEach(System.out::println); //print concatinated stream in reverse order
     }
 }

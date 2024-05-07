@@ -24,5 +24,6 @@ public class StreamOperations {
         Integer sum = list.stream()
                 .collect(Collectors.summingInt(Integer::intValue)); //sum of all integers
         System.out.println(sum);
+
     }
 }

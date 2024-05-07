@@ -8,9 +8,9 @@ public class Palindrome {
         String str = sc.next();
          str = str.toLowerCase();
          if(isPalindrome(str))
-             System.out.println("Yes");
+             System.out.println("Yes, it is palindrome");
          else
-             System.out.println("No");
+             System.out.println("Not a palindrome");
     }
     public static boolean isPalindrome(String str){
         int i=0;

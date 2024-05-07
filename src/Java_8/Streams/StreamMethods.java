@@ -11,6 +11,8 @@ public class StreamMethods {
     public static void main(String[] args) {
         List<Integer> list = List.of(1,2,3,4,5);
         Integer var = list.stream().max(Integer::compare).get();
+        Integer min = list.stream().min(Integer::compare).get();
+        System.out.println(min);
         System.out.println(var);
 
        // list.stream().distinct().forEach(System.out::println);

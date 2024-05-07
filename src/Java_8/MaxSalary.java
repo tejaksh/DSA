@@ -14,6 +14,8 @@ public class MaxSalary {
 
         Integer var = list.stream().max(Integer::compare).get();
         System.out.println(var);
+        Integer var1 = list.stream().min(Integer::compare).get();
+        System.out.println(var1);
         //list.stream().map(list::getSalary).max(Integer::Compare).get();
         //list.stream().max(Integer::comparator).get();
     }
