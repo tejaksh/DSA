@@ -4,13 +4,15 @@ package collections;
 import java.util.Hashtable;
 import java.util.Map;
 
-//HashTable is an array of a list. Each list is known as bucket
-//The position of bucket is identified by calling the hashCode() method.
-//HashTable contains the values based on the key
-//HashTable class contains unique elements
-//doesn't allow null key or values
-//class is synchronized
-//initial capacity is 11 and loading factor is 0.75
+/**
+ *HashTable is an array of a list. Each list is known as bucket
+*The position of bucket is identified by calling the hashCode() method.
+*HashTable contains the values based on the key
+*HashTable class contains unique elements
+*doesn't allow null key or values
+*class is synchronized
+*initial capacity is 11 and loading factor is 0.75
+ **/
 public class HashTable2 {
     public static void main(String[] args) {
         Hashtable<Integer, String> ht = new Hashtable<>();

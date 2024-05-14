@@ -3,11 +3,13 @@ package collections;
 import java.util.HashMap;
 import java.util.Map;
 
-//keys should be unique
-//If you try to insert the duplicate key, it will replace the element of the corresponding key
-//Java HashMap may have one null key and multiple null values.
-//HashMap maintains no order
-//Initial capacity is 16 & loading factor is 0.75
+/**
+ *keys should be unique
+*If you try to insert the duplicate key, it will replace the element of the corresponding key
+*Java HashMap may have one null key and multiple null values.
+*HashMap maintains no order
+*Initial capacity is 16 & loading factor is 0.75
+ **/
 public class HashMapDemo {
     public static void main(String[] args) {
         HashMap<Integer, String> map = new HashMap<>();
