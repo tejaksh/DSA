@@ -2,10 +2,11 @@
 // constructor method reference
 
 // Importing required classes
-import java.io.*;
-import java.nio.charset.Charset;
-import java.util.*;
-import java.util.function.*;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+import java.util.function.Supplier;
 
 // Object need to be sorted
 class Person {

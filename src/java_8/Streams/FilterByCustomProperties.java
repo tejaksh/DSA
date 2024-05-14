@@ -1,10 +1,8 @@
-// Java program to demonstrate
+package java_8.Streams;// Java program to demonstrate
 // filter by Custom Properties
 
-import java.io.*;
-import java.util.List;
 import java.util.Arrays;
-import java.util.stream.Stream;
+import java.util.List;
 public class FilterByCustomProperties {
 
     // Employee class
