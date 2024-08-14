@@ -17,7 +17,9 @@ public class MethodReferenceArbitraryObject {
         personList.add("Hulk");
 
         //method reference to String Type
-        Collections.sort(personList, String::compareToIgnoreCase);
-        personList.forEach(System.out::println); //method reference used here
+        //Collections.sort(personList, String::compareToIgnoreCase);
+        //personList.forEach(System.out::println); //method reference used here
+        personList.stream().sorted().forEach(System.out::println);
+
     }
 }

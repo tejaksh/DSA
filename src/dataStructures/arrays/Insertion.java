@@ -25,13 +25,9 @@ public class Insertion {
         arr[4] = 50;
         arr[5] = 70;
         int capacity = 20;
-<<<<<<< HEAD
+
         int n = 7;
         int i, key = 28;
-=======
-        int n = 6;
-        int i, key = 26;
->>>>>>> origin/master
 
         System.out.print("Before Insertion: ");
         for (int j = 0; j < n; j++) {

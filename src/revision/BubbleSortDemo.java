@@ -35,10 +35,10 @@ public class BubbleSortDemo {
     public static void main(String[] args) {
         int nums [] = {6,5,2,8,9,4};
         int size = nums.length;
-        int temp = 0; //to store number for temperory
-        System.out.println("before sorting");
+        int temp = 0; //to store number for temporary
+        System.out.println("Before sorting");
         for(int num : nums){
-            System.out.println(num + " ");
+            System.out.print(num + " ");
         }
         for(int i=0; i<size;i++){
             for (int j=0; j<size-1; j++){
@@ -49,9 +49,10 @@ public class BubbleSortDemo {
                 }
             }
         }
-        System.out.println("after sorting");
+        System.out.println();
+        System.out.println("After sorting");
         for(int num :  nums){
-            System.out.println(num);
+            System.out.print(num+ " ");
         }
     }
 }

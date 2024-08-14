@@ -14,8 +14,7 @@ public class Demo {
         h.add(15);
         h.add(5);
 
-        h.stream()
-                .sorted(Comparator.reverseOrder())
+        h.stream().sorted(Comparator.reverseOrder())
                 .forEach(System.out::println); //print TreeSet in reverse order
 
         //////////////////////////////////////////////////////////////////////

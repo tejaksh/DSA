@@ -6,7 +6,7 @@ public class FilterDemo {
     public static void main(String[] args) {
         Integer [] in = {21,43,56,75,78,80,32,45};
 
-        Optional<Integer> value = Optional.of(57);
+        Optional<Integer> value = Optional.of(56);
 
         System.out.println(value);
 
